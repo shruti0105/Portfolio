@@ -267,6 +267,8 @@ section .title:hover{
 .about .about-content .right p{
     text-align: justify;
     font-size: 20px;
+    word-spacing: -1.5px;
+    font-family: "urw-din",sans-serif;
 }
 .about .about-content .right a{
     display: inline-block;
