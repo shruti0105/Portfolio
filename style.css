@@ -11,6 +11,8 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -217,7 +219,10 @@ section .title:hover{
     font-weight: 500;
 }
 
-
+.gif2
+{
+    display: none;
+}
 .home .home-content a{
     display: inline-block;
     background: #1967d7;
@@ -840,7 +845,7 @@ footer span a:hover{
     }
 
     .about{
-        height: 130vh;
+        height: 140vh;
     }
     .about .about-content .column{
         width: 100%;
@@ -864,7 +869,7 @@ footer span a:hover{
     }
 
     .education{
-        height: 140vh;
+        height: 150vh;
     }
     .education .edu-content .card{
         width: calc(100% - 10px);
@@ -877,7 +882,9 @@ footer span a:hover{
         margin-bottom: 50px;
         margin-top: -7%;
     }
-
+    .row{
+        height: 85vh;
+    }
     .contact .contact-content .column .contact_me{
         height: 250px;
         width: 300px;
@@ -958,7 +965,7 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
-
+    
     .home{
         background-color: #111;
         background-image: none;
@@ -972,9 +979,11 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-
+    .row{
+        height: 70vh;
+    }
     .education{
-        height: 140vh;
+        height: 158vh;
     }
     .education .edu-content .card{
         width: calc(105% - 10px);
@@ -1045,4 +1054,23 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+@media (max-width: 500px) {
+
+    
+    .home, .about, .education,.contact,.project,footer{
+        width: 106vh;
+    }
+
+    .education
+    {
+        height: 165vh;
+    }
+
+    .section title
+    {
+        margin-top: 4%;
+    }
+
 }
